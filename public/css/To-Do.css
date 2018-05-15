@@ -1,0 +1,59 @@
+.background-title {
+  padding: 0;
+	width: 100%;
+	height: auto;
+}
+
+#background-title {
+  padding: 0;
+	width: 100%;
+	background-size:100%;
+	height: auto;
+}
+
+
+.Button {
+  width: 15%;
+  border-radius: 8px;
+  border: 0px;
+  cursor:pointer;
+}
+
+.Add-Button {
+  background-color: lightblue;
+}
+
+.LogOut-Button {
+  background-color: #ccff66;
+}
+
+.Delete-Button {
+  background-color: #e60000;
+}
+
+.Edit-Button {
+  background-color: #ffb31a;
+}
+
+.taskList {
+  text-align: center;
+}
+
+.taskTable {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.TaskRow {
+  padding: 2%;
+}
+
+.TaskRow:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.TaskRow:hover {
+  background-color: #444444;
+  color: #ffffff;
+}

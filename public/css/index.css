@@ -1,0 +1,17 @@
+
+.Not-background{
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 6%;
+}
+
+.title{
+  text-align: center;
+  padding: 6%;
+}
+
+.title-link,.title-link:active,.title-link:visited {
+  text-decoration: none;
+  color: #ffffff
+}
