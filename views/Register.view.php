@@ -1,5 +1,5 @@
 <?php require('common/head.php'); ?>
-<div class="background-title">
+<div class="background-title" id="background">
   <h1 class="register-title">Sign up</h1>
   <div class="happyForm">
     <form action="/register.php" method="post">

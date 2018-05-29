@@ -1,22 +1,34 @@
 .background-title {
   padding: 0;
-	width: 100%;
-	height: auto;
+  width: 100%;
+  height: auto;
 }
 
 #background-title {
   padding: 0;
-	width: 100%;
-	background-size:100%;
-	height: auto;
+  width: 100%;
+  background-size: 100%;
+  height: auto;
 }
-
 
 .Button {
   width: 15%;
   border-radius: 8px;
   border: 0px;
-  cursor:pointer;
+  cursor: pointer;
+}
+
+.Button a {
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Button a:visited, .Button a:active, .Button a:link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #bc00fa;
+  cursor: pointer;
 }
 
 .Add-Button {
@@ -56,4 +68,9 @@
 .TaskRow:hover {
   background-color: #444444;
   color: #ffffff;
+}
+
+.buttons-flex {
+  display: flex;
+  justify-content: space-around;
 }
